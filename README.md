@@ -1,6 +1,6 @@
 # crystal-oib
 
-This module implements OIB validator in crystal-lang.
+OIB validator for Crystal.
 
 OIB stands for _Osobni Identifikacijski Broj (Personal Identification Number)_ which is unique numerical identificator used in Republic of Croatia for denoting both private and legal entities.
 
@@ -20,8 +20,9 @@ dependencies:
 ```crystal
 require "crystal-oib"
 
+# accepts strings
 OIB.is_valid? "84477684422"
-# or
+# or numbers
 OIB.is_valid? 84477684422
 ```
 
