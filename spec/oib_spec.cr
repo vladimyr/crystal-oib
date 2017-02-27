@@ -17,7 +17,17 @@ describe OIB do
   end
 
   it "should fail if OIB is too short" do
-    status = OIB.is_valid? 840907312
+    status = OIB.is_valid? 7942375353
+    status.should eq(false)
+  end
+
+  it "should fail if OIB is too long" do
+    status = OIB.is_valid? 794237535322
+    status.should eq(false)
+  end
+
+  it "should fail if number is negative" do
+    status = OIB.is_valid? -840907312
     status.should eq(false)
   end
 

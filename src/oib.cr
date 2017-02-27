@@ -4,6 +4,7 @@ module OIB
   extend self
 
   def is_valid?(number : Int) : Bool
+    return false if number <= 0
     digits = number.to_s.chars.map { |c| c.to_i }
     validate_ISO7064 digits
   end
