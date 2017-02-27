@@ -1,4 +1,4 @@
-# crystal-oib
+# crystal-oib [![Build Status](https://travis-ci.org/vladimyr/crystal-oib.svg?branch=master)](https://travis-ci.org/vladimyr/crystal-oib)
 
 OIB validator for Crystal.
 
