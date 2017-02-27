@@ -2,7 +2,7 @@
 
 OIB validator for Crystal.
 
-OIB stands for _Osobni Identifikacijski Broj (Personal Identification Number)_ which is unique numerical identificator used in Republic of Croatia for denoting both private and legal entities.
+OIB stands for _Osobni Identifikacijski Broj (Personal Identification Number)_ which is unique numerical identificator used in Republic of Croatia :croatia: for denoting both private and legal entities.
 
 ## Installation
 
