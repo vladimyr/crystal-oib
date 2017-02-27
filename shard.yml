@@ -1,0 +1,9 @@
+name: crystal-oib
+version: 0.1.0
+
+authors:
+  - Dario Vladovic <d.vladimyr@gmail.com>
+
+crystal: 0.21.0
+
+license: MIT
